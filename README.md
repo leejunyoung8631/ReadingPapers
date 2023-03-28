@@ -12,7 +12,7 @@ useful github
 Time series forecasting
 -----------------------------
 
-* Less Is More: Fast Multivariate Time Series Forecasting with Light Sampling-oriented MLP Structures
+### Less Is More: Fast Multivariate Time Series Forecasting with Light Sampling-oriented MLP Structures
     * arxiv, 2022
     * Recommendation : ⭐⭐
 > - propose model named LightTS   
