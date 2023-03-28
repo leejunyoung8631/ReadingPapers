@@ -38,7 +38,7 @@ Time series forecasting
 Generative model
 -----------------------------
 
-* Autoregressive Image Generation using Residual Quantization
+### Autoregressive Image Generation using Residual Quantization
     * CVPR, 2022
     * Recommendation : ⭐⭐⭐
 > - apply RQ(Residual quantized) to VAE, Transformer
