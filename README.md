@@ -13,7 +13,7 @@ Time series forecasting
 -----------------------------
 
 ### Less Is More: Fast Multivariate Time Series Forecasting with Light Sampling-oriented MLP Structures
-    * arxiv, 2022
+    * arxiv, 2022, Tsinghua University
     * Recommendation : ⭐⭐
 > - propose model named LightTS   
 > - MLP-based model -> IEBlock(bottleneck based mlp model)   
@@ -39,7 +39,7 @@ Generative model
 -----------------------------
 
 ### Autoregressive Image Generation using Residual Quantization
-    * CVPR, 2022
+    * CVPR, 2022, KAIST
     * Recommendation : ⭐⭐⭐
 > - apply RQ(Residual quantized) to VAE, Transformer
 > - 기존 vector quantization 기법에서 codebook과 latent vector size의 tradeoff 문제를 개선 
@@ -53,3 +53,14 @@ Generative model
 
 
 
+
+
+Computation Efficiency
+-----------------------------
+
+### Mixed Precision Training
+    * ICLR, 2018, NVIDIA
+    * Recommendation : ⭐⭐
+> - deep learning model의 computation을 대개 FP32(Single Precision)으로 연산
+> - FP16(Half Precision)으로 계산하면 memory 사용량이 절반으로 줄어들고 연산이 빠름. 그런데 Single과 Half는 표현 가능한 수에서 큰 차이가 나기 때문에 FP는 일정 loss 이하로 떨어뜨릴 수 없고 error가 축적됨.
+> - 논문에서는 FP16을 이용해서 주로 연산하고, 정확도를 유지하는 방법론을 제시
