@@ -23,7 +23,7 @@
        - 아마도 Data augmentation시에 RandomCrop으로 인한 영향으로 예상됨.
        - imageCrop의 (top, left)의 좌표를 Unet의 Conditional input으로 넣어줌.
 3. Multi-Aspect Training
-   - 대부분의 ComputerVision model은 학습을 512*512, 1024*1024 와 같이 정사각형의 데이터에 대해 학습함. 하지만 실제로는 다양한 ratio의 이미지가 존재
+   - 대부분의 ComputerVision model은 학습을 512x512, 1024x1024 와 같이 정사각형의 데이터에 대해 학습함. 하지만 실제로는 다양한 ratio의 이미지가 존재
    - 그래서 특정 ratio의 데이터를 한 배치에 넣고 학습시킴. 이 과정에서 이 (width, height)를 Unet의 condition input으로 제공함.
 4. Improvement of Autoencoder
    - 기존의 autoencoder를 computation을 늘리고, decoder를 더 finetune 시킴.
